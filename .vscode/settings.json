@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "iostream": "cpp"
+    },
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": true,
+    "zenMode.hideActivityBar": true,
+    "zenMode.fullScreen": true,
+    "zenMode.centerLayout": false,
+    "zenMode.silentNotifications": false
+}
