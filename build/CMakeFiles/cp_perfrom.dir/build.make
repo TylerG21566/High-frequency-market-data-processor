@@ -96,7 +96,7 @@ cp_perfrom_EXTERNAL_OBJECTS =
 cp_perfrom: CMakeFiles/cp_perfrom.dir/src/main.cpp.o
 cp_perfrom: CMakeFiles/cp_perfrom.dir/build.make
 cp_perfrom: vcpkg_installed/arm64-osx/debug/lib/libcurl-d.a
-cp_perfrom: vcpkg_installed/arm64-osx/lib/libz.a
+cp_perfrom: vcpkg_installed/arm64-osx/debug/lib/libz.a
 cp_perfrom: CMakeFiles/cp_perfrom.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tylergoyea/Documents/cpperfrom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cp_perfrom"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cp_perfrom.dir/link.txt --verbose=$(VERBOSE)

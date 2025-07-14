@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/tylergoyea/Documents/cpperfrom/build",
+  "command": "/usr/bin/clang++ -DCURL_STATICLIB -isystem /Users/tylergoyea/Documents/cpperfrom/build/vcpkg_installed/arm64-osx/include -g -std=gnu++17 -arch arm64 -g -O0 -o CMakeFiles/cp_perfrom.dir/src/main.cpp.o -c /Users/tylergoyea/Documents/cpperfrom/src/main.cpp",
+  "file": "/Users/tylergoyea/Documents/cpperfrom/src/main.cpp",
+  "output": "CMakeFiles/cp_perfrom.dir/src/main.cpp.o"
+}
+]

@@ -6,7 +6,7 @@ CXX_DEFINES = -DCURL_STATICLIB
 
 CXX_INCLUDES = -isystem /Users/tylergoyea/Documents/cpperfrom/build/vcpkg_installed/arm64-osx/include
 
-CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
+CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -g -O0
 
-CXX_FLAGS = -std=gnu++17 -arch arm64
+CXX_FLAGS = -g -std=gnu++17 -arch arm64 -g -O0
 

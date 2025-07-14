@@ -1,6 +1,7 @@
 #include <iostream>
 #include <filesystem> // C++17 feature
 #include "../include/dotenv_loader.h"
+#include "../include/common.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;

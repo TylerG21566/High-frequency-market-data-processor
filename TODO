@@ -1,0 +1,36 @@
+# Priority 1 - MVP
+
+DONE: Create MarketTick struct with timestamp, price, volume fields
+TODO: Implement Alpha Vantage API client class with libcurl
+TODO: Add JSON parsing for API responses using nlohmann/json
+TODO: Create basic logging system for debugging API calls
+TODO: Implement error handling for network requests and JSON parsing
+TODO: Create Simple Moving Average (SMA) calculation function
+TODO: Implement basic trading strategy (SMA crossover signal generation)
+TODO: Add broker API integration (Interactive Brokers, TD Ameritrade, Alpaca)
+TODO: Implement order placement (market orders: buy/sell)
+TODO: Create position tracking and portfolio state management
+TODO: Add basic risk management (position sizing, max loss limits)
+TODO: Implement paper trading mode for safe testing
+TODO: Create configuration file for API keys, symbols, parameters
+TODO: Add trade execution logic that acts on strategy signals
+
+# Priority 2 - Essential optimizations
+TODO: Add rate limiting for API requests (Alpha Vantage: 5 calls/min)
+TODO: Create circular buffer class for efficient moving average calculations
+TODO: Implement memory pool allocator for high-frequency allocations
+TODO: Add unit tests using Google Test framework
+TODO: Create data validation pipeline for incoming market data
+TODO: Add Exponential Moving Average (EMA) calculation
+TODO: Implement RSI and MACD indicators
+
+# Priority 3 - Performance Optimizations
+
+TODO: Implement producer-consumer pattern for multi-threading
+TODO: Add lock-free queue for inter-thread communication
+TODO: Add SIMD optimizations for mathematical calculations
+TODO: Implement WebSocket client for real-time data (Finnhub)
+TODO: Create performance monitoring and metrics collection
+
+# Priority 4 - Advanced features
+[All your advanced items: volatility calculations, backtesting, ML features, etc.]
