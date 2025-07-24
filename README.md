@@ -16,8 +16,7 @@ In essence, StockSignal offers traders and investors real-time moving average ca
 This project uses [CMake](https://cmake.org/) and [vcpkg](https://github.com/microsoft/vcpkg) for dependency management.
 
 ### Dependencies
-- [cpr](https://github.com/libcpr/cpr) (HTTP client)
-- [dotenv-cpp](https://github.com/therecipe/dotenv-cpp) (for loading .env files)
+- full list pending..
 
 ### Build Instructions
 
