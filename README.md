@@ -1,24 +1,14 @@
 # cp_perfrom C++ Project
 
-Trading simulator
+This CLI project, named "StockSignal," fetches real-world stock data using the AlphaVantage API and calculates moving averages (Simple, Exponential, Weighted, Hull) for trend analysis. Key features include:
 
-cpperfrom/
-├── include/                    # All header files
-│   ├── common.h               # MarketTick struct & common definitions
-│   ├── alphavantage_client.h  # API client with error handling
-│   ├── technical_indicators.h # SMA, EMA, RSI, MACD, Bollinger Bands
-│   ├── logger.h              # High-performance async logging
-│   └── threading_engine.h    # Multi-threaded processing engine
-├── src/                       # Implementation files
-│   ├── main.cpp              # Complete application with callbacks
-│   ├── alphavantage_client.cpp
-│   ├── technical_indicators.cpp
-│   ├── logger.cpp
-│   └── threading_engine.cpp
-├── CMakeLists.txt            # Professional build configuration
-├── build.sh                  # Enhanced build script
-├── .env.example             # Environment configuration template
-└── README.md                # Comprehensive documentation
+High-frequency data processing for near real-time moving average calculations.
+Customizable stock selection, timeframes, and moving average parameters.
+Interactive data visualization with Matplotlib.
+Data export for further analysis or backtesting.
+Future plans involve adding paper trading features for strategy simulation and performance monitoring. Built with Python, StockSignal prioritizes performance and efficiency for seamless high-frequency data processing and analysis.
+
+In essence, StockSignal offers traders and investors real-time moving average calculations and future paper trading capabilities, aiding informed decision-making and strategy enhancement.
 
 
 ## Setup
