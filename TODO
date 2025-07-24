@@ -1,7 +1,20 @@
+ways to test your trading bot safely without risking real money:
+1. Paper Trading Mode (Safest - No Real Money)
+Most brokers offer paper trading:
+
+TD Ameritrade: Free paper trading account
+Interactive Brokers: Paper trading with TWS
+Alpaca: Free paper trading API (alpaca-trade-api)
+E*TRADE: Virtual trading platform
+
+# Phase 1 - Retrieve data
+# Phase 2 - calculate moving averages
+# Phase 3 - Make predictions
+
 # Priority 1 - MVP
 
 DONE: Create MarketTick struct with timestamp, price, volume fields
-TODO: Implement Alpha Vantage API client class with libcurl
+DONE: Implement Alpha Vantage API client class with libcurl
 TODO: Add JSON parsing for API responses using nlohmann/json
 TODO: Create basic logging system for debugging API calls
 TODO: Implement error handling for network requests and JSON parsing

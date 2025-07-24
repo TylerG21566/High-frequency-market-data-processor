@@ -1,5 +1,5 @@
 Detecting compiler hash for triplet arm64-osx...
-Compiler found: /Library/Developer/CommandLineTools/usr/bin/c++
+Compiler found: /Library/Developer/CommandLineTools/usr/bin/clang++
 The following packages are already installed:
     cpr[core,ssl]:arm64-osx@1.12.0
     curl[core,non-http,sectransp,ssl]:arm64-osx@8.14.1
@@ -31,4 +31,4 @@ For more information, see the docs here:
     
     https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
 
-All requested installations completed successfully in: 68.9 us
+All requested installations completed successfully in: 90.6 us

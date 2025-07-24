@@ -1,5 +1,26 @@
 # cp_perfrom C++ Project
 
+Trading simulator
+
+cpperfrom/
+├── include/                    # All header files
+│   ├── common.h               # MarketTick struct & common definitions
+│   ├── alphavantage_client.h  # API client with error handling
+│   ├── technical_indicators.h # SMA, EMA, RSI, MACD, Bollinger Bands
+│   ├── logger.h              # High-performance async logging
+│   └── threading_engine.h    # Multi-threaded processing engine
+├── src/                       # Implementation files
+│   ├── main.cpp              # Complete application with callbacks
+│   ├── alphavantage_client.cpp
+│   ├── technical_indicators.cpp
+│   ├── logger.cpp
+│   └── threading_engine.cpp
+├── CMakeLists.txt            # Professional build configuration
+├── build.sh                  # Enhanced build script
+├── .env.example             # Environment configuration template
+└── README.md                # Comprehensive documentation
+
+
 ## Setup
 
 This project uses [CMake](https://cmake.org/) and [vcpkg](https://github.com/microsoft/vcpkg) for dependency management.
@@ -31,3 +52,7 @@ This project uses [CMake](https://cmake.org/) and [vcpkg](https://github.com/mic
 
 ---
 No application code is included yet.
+
+
+
+
