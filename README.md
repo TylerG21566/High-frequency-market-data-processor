@@ -1,4 +1,4 @@
-# cp_perfrom C++ Project
+# Project story summary
 
 This CLI project, named "StockSignal," fetches real-world stock data using the AlphaVantage API and calculates moving averages (Simple, Exponential, Weighted, Hull) for trend analysis. Key features include:
 
