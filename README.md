@@ -32,16 +32,13 @@ This project uses [CMake](https://cmake.org/) and [vcpkg](https://github.com/mic
    ./vcpkg/vcpkg install
    ```
 3. Configure and build the project:
-   ```sh
-   cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake
-   cmake --build build
+   ```zsh
+   bash build_and_run
    ```
 
 ### Environment Variables
 - Place your Alpha Vantage API key in the `.env` file (already present).
 
----
-No application code is included yet.
 
 
 
